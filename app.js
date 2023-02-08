@@ -126,3 +126,7 @@ const getArtistByName = (dataObj, arr = []) => {
 }
 
 console.log(getArtistByName(artistByGeneres));
+
+const foods = ['bacon', 'pizza', 'fries'];
+const [,, fries] = foods
+console.log(fries)
